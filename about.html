@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Sunil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Same background as Home */
+    .bg-image {
+      background-image: url('https://wallpaperaccess.com/full/499246.jpg');
+      min-height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+      box-shadow: 5px 8px 20px rgba(30, 195, 71, 0.3);
+    }
+  </style>
+</head> 
+
+<body class="text-white">
+
+  <!-- Full-page background -->
+  <div class="bg-image d-flex flex-column justify-content-between">
+
+    <!-- Navbar (same as Home) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient shadow"
+      style="background: linear-gradient(90deg, #ff5722, #e91e63);">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="sunil.jpg" alt="Logo" width="45" height="45"
+            class="rounded-circle border border-2 border-light me-2">
+          <span class="fw-bold">Sunil</span>
+        </a>
+
+        <!-- Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold" href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Heading -->
+    <div class="container text-center mt-5">
+      <h1 class="fw-bold text-warning display-5">About Us</h1>
+      <h4 class="lead text-primary">Our journey and vision towards technology</h4>
+    </div>
+
+    <!-- About Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Vision -->
+          <div class="col-12 col-lg-6">
+            <div class="card h-100 text-dark">
+              <img src="vision.jpg" class="card-img-top" alt="Our Vision">
+              <div class="card-body">
+                <h5 class="card-title">Our Vision</h5>
+                <p class="card-text text-secondary">
+                  From innovative software solutions to transformative digital experiences, we infuse every project with
+                  cutting-edge technology and creativity. As a tech-driven team, we believe technology can solve real-world
+                  problems, empower people, and shape a smarter future.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Approach -->
+          <div class="col-12 col-lg-6">
+            <div class="card h-100 text-dark">
+              <img src="approach.jpg" class="card-img-top" alt="Our Approach">
+              <div class="card-body">
+                <h5 class="card-title">Our Approach</h5>
+                <p class="card-text text-secondary">
+                  Welcome to our tech agency, where innovation drives progress and technology shapes the future. We are a
+                  team of passionate developers, engineers, and problem-solvers dedicated to turning ideas into powerful
+                  digital solutions. From building scalable software to crafting intelligent systems, our approach combines
+                  creativity, strategy, and cutting-edge technology to deliver impactful results.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
